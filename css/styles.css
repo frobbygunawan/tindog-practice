@@ -1,0 +1,178 @@
+#title {
+  background-color: #ff4c68;
+  /* overflow: hidden; This was myw ay of hiding the picture behind the feature section */
+  padding: 0 5rem 0 5rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 1rem;
+  padding-bottom: 5%;
+}
+
+.dog-pic {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-top: 5%;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  padding-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Buttons in title */
+/* It's better to use our own class and not touch bootstrap because it might cuse some issues later */
+.download-button {
+  margin: 5% 3% 0 0;
+}
+
+/* Features section */
+#features {
+  margin: auto;
+  background-color: white;
+  padding: 5% 10% 5%;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.feature-text {
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding: 1.5rem 0 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+  padding: 1.5rem 0 1rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight:bold;
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  .dog-pic {
+    position: static;
+    transform: rotate(0);
+    padding-bottom: 5rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action and Footer */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%
+}
+
+.call-to-act {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  padding: 3% 15%;
+}
+
+.footer-button {
+  margin: 1rem;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  height: 10rem;
+  padding: 2rem 0;
+}
+
+.media-icon {
+  margin: 1rem;
+}
+
+.footer-link {
+  color: #000;
+}
